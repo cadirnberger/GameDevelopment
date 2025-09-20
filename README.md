@@ -42,44 +42,46 @@ DO NOT touch the debris or the wall. The debris will get faster as time goes on.
 ## Extensions Implemented
 
 ### 1. Swap Out Sprites (3 points)
-**Implementation**: I used free sprite on the and placed them on the game objects
-**Game Impact**: no much just good visuals
+**Implementation**: I used free sprite on the and placed them on the game objects.
+**Game Impact**: no much just good visuals.
 **Technical Details**: the sprits have hit box that already were on the og shapes.
 **Known Issues**: None 
 
 ### 2. Destroy the Borders (4 points)
-**Implementation**: the border disapear when it's game over
+**Implementation**: the border disapear when it's game over.
 **Game Impact**: just a cool after after affect when the game is over.
-**Technical Details**: 
-**Known Issues**: [Any bugs specific to this extension]
+**Technical Details**: when the player collides with the debris player dies and the borders disappear.
+**Known Issues**: None
 
 ### 3.  Increase Difficulty Over Time (5 points)
-**Implementation**: [How you implemented it]
-**Game Impact**: [How it changes gameplay]
-**Technical Details**: [Key technical changes]
-**Known Issues**: [Any bugs specific to this extension]
+**Implementation**: for amount of time player is alive the difficulty increases.
+**Game Impact**: it made the game hard for the player.
+**Technical Details**: it changes the speed of debris.
+**Known Issues**: None
 
 ### 4. Add Sound Effects and Background Music (5 points)
-**Implementation**: [How you implemented it]
-**Game Impact**: [How it changes gameplay]
-**Technical Details**: [Key technical changes]
-**Known Issues**: [Any bugs specific to this extension]
+**Implementation**: the background music plays for ever in the scene and when the player collides with debris it plays a dying sound.
+**Game Impact**: it makes the game feel more alive.
+**Technical Details**: it add more audio clips.
+**Known Issues**: None
 
 ### 5. Animate the Booster Graphic with Audio (6 points)
-**Implementation**: [How you implemented it]
-**Game Impact**: [How it changes gameplay]
-**Technical Details**: [Key technical changes]
-**Known Issues**: [Any bugs specific to this extension]
+**Implementation**: while the w key is it plays an audio that sounds like a booster and has a fire that comes out.
+**Game Impact**: makes the player feel more alive.
+**Technical Details**: the booster gets bigger more you click and the shift has it.
+**Known Issues**: shift doesn't have the booster audio.
 
 
 ## Credits
-- [List any external assets used]
-- [Credit sources for sprites, sounds, etc.]
+- Sci Fi Ambiances, Vincent T
+-  leohpaz, RPG Essentials Sound Effects - FREE!
+-  InspectorJ Audio, Abstract Spaceships SFX (Free Sample Pack)
+-  Crehera, Pixel Art Space Ship Part 1
 
 ## Reflection
-**Total Points Claimed**: [Base: 70 + Extensions: X + Documentation: X = Total]
-**Challenges**: [What was difficult]
-**Learning Outcomes**: [What you learned]
+**Total Points Claimed**: 70 + 23 + 10 = 103
+**Challenges**: it was easy
+**Learning Outcomes**: how to make a 2d game
 
 ## Development Notes
-[Any additional notes about your development process]
+this was a fun game to make
