@@ -1,0 +1,13 @@
+{
+    "asset": "a652877b012108e41871f867ada9f176",
+    "fileName": "01996015-960f-7625-9df8-08629bd5a73c.wav",
+    "prompt": "rocket booster, fire",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "418943b4bfa66557223f21f3856ce6b0",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

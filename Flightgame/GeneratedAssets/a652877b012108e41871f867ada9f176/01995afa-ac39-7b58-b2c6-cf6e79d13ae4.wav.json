@@ -1,0 +1,13 @@
+{
+    "asset": "a652877b012108e41871f867ada9f176",
+    "fileName": "01995afa-ac39-7b58-b2c6-cf6e79d13ae4.wav",
+    "prompt": "spaceship booster ",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "4f70d0f13456a1799c9a6c038221cb84",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}
