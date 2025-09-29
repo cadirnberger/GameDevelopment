@@ -1,0 +1,4 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Label text="Cherries Collected: 0/4" name="Collection" style="-unity-font-style: bold; color: rgb(185, 54, 84); align-self: center; top: -1px; font-size: 14px;" />
+    <engine:Label text="You win!" name="Win" style="top: 28%; white-space: pre; align-self: center; -unity-font-style: bold; font-size: 49px; justify-content: flex-start; align-content: flex-start; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);" />
+</engine:UXML>

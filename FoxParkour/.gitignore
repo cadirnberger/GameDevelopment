@@ -1,0 +1,48 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset meta files should not be ignored
+!/[Aa]ssets/**/*.meta
+
+# User-specific settings
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Unity Crash Reports
+sysinfo.txt
+
+# Gradle cache
+.gradle/
+.gradle-cache/
+
+# Android/iOS build files
+*.apk
+*.aab
+*.ipa
+*.jks
+*.keystore
+[Oo]bj/
+
+# OS-specific
+.DS_Store
+Thumbs.db
