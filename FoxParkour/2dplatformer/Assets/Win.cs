@@ -7,12 +7,14 @@ public class Win : MonoBehaviour
     private Label winLabel;
     private Label collectionLabel;
     public AudioClip winSound;
+    public AudioSource backgroundMusic;
 
     void Start()
     {
 
         winLabel = uiDocument.rootVisualElement.Q<Label>("Win");
         winLabel.style.display = DisplayStyle.None;
+        backgroundMusic.Play();
 
         
 
@@ -30,6 +32,8 @@ public class Win : MonoBehaviour
             winLabel.style.display = DisplayStyle.Flex; // Show win label
             Time.timeScale = 0f; // Pause the game
             AudioSource.PlayClipAtPoint(winSound, Camera.main.transform.position);
+            backgroundMusic.Stop();
+
         }
     }
 }
