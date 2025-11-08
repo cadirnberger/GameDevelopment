@@ -1,7 +1,7 @@
 # Sheep's Way Home
 
 ## Play the Game
-**Unity Play Link**: https://play.unity.com/en/games/2ba0002b-5fd6-40fd-a24d-c9be4c96dea6/debris-dash
+**Unity Play Link**: https://play.unity.com/en/games/1f2d94c0-0b16-4442-a53b-82d58e8cc602/sheeps-way-home
 
 ## Game Overview
 The Sheep needs to collect all of his flowers while he trying to get home. Help the sheep dodge objects and collect the flowers to get back home. Will you dodge all the objects trying to get flowers and get home?
