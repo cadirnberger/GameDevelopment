@@ -1,37 +1,48 @@
-# Debris Dash
+# Sheep's Way Home
 
 ## Play the Game
 **Unity Play Link**: https://play.unity.com/en/games/2ba0002b-5fd6-40fd-a24d-c9be4c96dea6/debris-dash
 
 ## Game Overview
-Avoid the debris in space but don't touch the wall either. Try to live as much as you can and get the high score. The debris will get faster, trying to make you lose.
+The Sheep needs to collect all of his flowers while he trying to get home. Help the sheep dodge objects and collect the flowers to get back home. Will you dodge all the objects trying to get flowers and get home?
 
 ### Controls
 - w- forward
 - s- backwards
 - d- rotate right
 - a- roate left
-- space- stop
-- shift - boost
 
 ### How to Play
-To aviod the debris move forward, backwards or rotate left or right. you can stop yourself with the space bar incase of something right there or if you are too slow boost with shift.
-DO NOT touch the debris or the wall. The debris will get faster as time goes on.
+To aviod the objects move forward, backwards or rotate left or right. To win is to collect all of the flowers then reaching the end. Try to get the least amount of hits from objects.
 
-## Base Game Implementation
-
-### Completion Status
-- [x] Player movement and controls
-- [x] Obstacle spawning system
-- [x] Collision detection
-- [x] Score system
-- [x] Game over state
-- [x] High score
-- [x] Swap Out Sprites
-- [x] Destroy the Borders
-- [x] Increase Difficulty Over Time
-- [x] Add Sound Effects and Background Music
-- [x] Animate the Booster Graphic with Audio
+## Base 
+### 1. Player Control & Input
+- [x] Responsive player controls using keyboard, mouse, or both
+- [x] Smooth, predictable movement appropriate to your game type
+- [x] Input handling without significant lag or errors
+### 2. Game Objects & Spawning 
+- [x] At least 3 different types of interactive game objects (enemies, collectibles, obstacles, projectiles, etc.)
+- [x] Dynamic spawning system (randomized positions, timed intervals, or wave-based)
+- [x] Proper use of prefabs for spawned objects
+### 3. Game State Management (Required)
+- [x] Clear win or loss conditions
+- [x] Score tracking or progress indication
+- [x] Game over state with ability to restart
+- [x] At least one boolean variable to track game state
+### 4. Visual & Audio Feedback (Required)
+- [x] At least 2 particle effects (collision, destruction, collection, etc.)
+- [x] At least 3 sound effects triggered by game events
+- [x] Visual feedback for player actions (score updates, health changes, etc.)
+### 5. User Interface (Required)
+- [x] Title screen or start button
+- [x] Game over screen
+- [x] Score/health/time display during gameplay
+- [x] Functional restart mechanism
+### 6. Code Quality (Required)
+- [x] Well-organized scripts with clear variable names
+- [x] Comments explaining complex logic
+- [x] Proper use of methods/functions to organize code
+- [x] No critical errors that prevent gameplay
 
 ### Known Bugs
 - when shift boost is clicked it doesn't have the sound.
@@ -41,47 +52,26 @@ DO NOT touch the debris or the wall. The debris will get faster as time goes on.
 
 ## Extensions Implemented
 
-### 1. Swap Out Sprites (3 points)
-**Implementation**: I used free sprite on the and placed them on the game objects.
-**Game Impact**: no much just good visuals.
-**Technical Details**: the sprits have hit box that already were on the og shapes.
-**Known Issues**: None 
+### Technical Features:
+The camera has a 3rd person fallowing. The different collition are the wall and the blox with one can move and other can't. There are delays in audio and the falling objects. Some Physics-based interactions are the falling objects because they can be moved.
 
-### 2. Destroy the Borders (4 points)
-**Implementation**: the border disapear when it's game over.
-**Game Impact**: just a cool after after affect when the game is over.
-**Technical Details**: when the player collides with the debris player dies and the borders disappear.
-**Known Issues**: None
+### Content & Polish: 
+The animated spirt is the player which has a runing animation. There dynamic obstacles which are all the object like the spinning "logs", the flying "egg", and the falling objects. There is instructions screen telling us about how to play the game.
 
-### 3.  Increase Difficulty Over Time (5 points)
-**Implementation**: for amount of time player is alive the difficulty increases.
-**Game Impact**: it made the game hard for the player.
-**Technical Details**: it changes the speed of debris.
-**Known Issues**: None
+### Creative Extensions:
+I made it so the theme was close enough to wild/animal theme with the assest closing resembling and the souds too. The falling objects do change colors so that Special visual effects. The triggering  is sort a new mechanic. 
 
-### 4. Add Sound Effects and Background Music (5 points)
-**Implementation**: the background music plays for ever in the scene and when the player collides with debris it plays a dying sound.
-**Game Impact**: it makes the game feel more alive.
-**Technical Details**: it add more audio clips.
-**Known Issues**: None
-
-### 5. Animate the Booster Graphic with Audio (6 points)
-**Implementation**: while the w key is it plays an audio that sounds like a booster and has a fire that comes out.
-**Game Impact**: makes the player feel more alive.
-**Technical Details**: the booster gets bigger more you click and the shift has it.
-**Known Issues**: shift doesn't have the booster audio.
 
 
 ## Credits
-- Sci Fi Ambiances, Vincent T
+-  Sheep Run Platform Pack, Beavy Store
 -  leohpaz, RPG Essentials Sound Effects - FREE!
--  InspectorJ Audio, Abstract Spaceships SFX (Free Sample Pack)
--  Crehera, Pixel Art Space Ship Part 1
-
-## Reflection
-**Total Points Claimed**: 70 + 23 + 10 = 103
-**Challenges**: it was easy
-**Learning Outcomes**: how to make a 2d game
-
-## Development Notes
-this was a fun game to make
+-  Stylized Low Poly Nature Lite, JustCreate
+-  Simple Low Poly Nature NeutronCat
+-  Low Poly Game Ready History Village, BAS Game Assest
+-  Low Poly Bird: Nests, pulsarbytes
+-  Farm Game UI - Starter 2D, maanetorn
+-  FREE Casual Game SFX Pack, Dustyroom
+-  Free Casual Music Pack, mk.matheus_klein
+-  FREE CASUAL PACK SFX, mk.matheus_klein
+-  Casual Jingles - 022420, GWriterstudio
